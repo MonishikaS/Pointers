@@ -2,6 +2,11 @@
 Pointers are a fundamental concept in the C programming language. They provide a way to work with memory addresses directly, allowing you to manipulate data, arrays, 
 and structures efficiently. Pointers are often used for tasks like dynamic memory allocation, passing values by reference, and working with complex data structures. Here are some key points about pointers in C:
 
+#### &i=Address of variable
+#### *(&i)=value of i
+#### *=value of i
+#### **k=pointer to an integer pointer
+
 1. **Declaration and Initialization:**
    Pointers are declared using an asterisk (*) before the variable name. They store the memory address of a variable of a specific type. You can initialize a
    pointer with the address of another variable of the same type:
