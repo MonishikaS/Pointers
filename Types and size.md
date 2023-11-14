@@ -65,8 +65,8 @@ int main() {
     int num = 42;
     int *ptr = &num;
     
-    printf("Size of int: %zu bytes\n", sizeof(int));
-    printf("Size of pointer to int: %zu bytes\n", sizeof(ptr));
+    printf("Size of int: %d bytes\n", sizeof(int));
+    printf("Size of pointer to int: %d bytes\n", sizeof(ptr));
     
     return 0;
 }
